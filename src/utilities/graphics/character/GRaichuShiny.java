@@ -1,0 +1,23 @@
+package utilities.graphics.character;
+
+import utilities.characters.OurCharacter;
+import utilities.graphics.GCharacter;
+import java.io.File;
+import javax.imageio.ImageIO;
+
+/**
+ * This class reads the picture with RaichuShiny's sprites and sets it.
+ *
+ */
+public class GRaichuShiny extends GCharacter {
+
+    public GRaichuShiny(OurCharacter c) {
+        super(c);
+        try {
+            setImage(ImageIO.read(new File("characters/raichuShiny.png")));
+            setImages();
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+    }
+}
