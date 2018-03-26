@@ -10,4 +10,4 @@ The project an its parts were developed and impemented by the following students
 - **Juan Carlos Morales Vega:** Principal developer of the server to client communication.
 - **Daniel Sevilla Dalmau:** Principal developer of the DataBase.
 
-The design and implementation of the game algorithms and its characteristics was done collaboratively by the three members. For more information, you can download the Memory pdf in the documents.
+The design and implementation of the game algorithms and its characteristics was done collaboratively by the three members. For more information, you can download the [Memory pdf](https://github.com/burklight/callOfPokemon/blob/master/Memory_CallOfPokemon.pdf) {only in Spanish} in the documents.
